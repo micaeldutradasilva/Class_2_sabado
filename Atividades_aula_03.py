@@ -79,3 +79,43 @@
 # adjetivo_three = input("Digite o terceiro adjetivo:")
 # print(f'Essa viagem é {adjetivo_one}, gosto muito quando você é {adjetivo_two} e, você faz {adjetivo_three}')
 
+# Explicação
+# senha_digitada = input("Dgite uma senha: ")
+# name = input("Digite seu nome: ")
+# senha = "1234"
+# if senha == senha_digitada and name == "Micael":
+#     print("Acesse, você digitou corretamente")
+# else:
+#     print(f'Não pode acessar, poreuqe você digitou {senha_digitada} ou {name} incorretamente.')
+
+# 1- Crie uma condição para comparar idades: 45 e 18 -  QUAL É MENOR E QUAL É MAIOR?
+
+# maior = input("Type it first number: ")
+# menor = input("Type it second number: ")
+# if maior > menor:
+#     print(f'Numero maior é: {menor} e número menor é: {maior}')
+# else:
+#     print(f'Número maior é: {maior} e número menor é: {menor}')
+
+# 2- Crie um sistema para permitir a verificação de menores em um show
+
+# name = input("Digite o nome do fã:")
+# print(f'Olá {name}!')
+# idade = int(input("Digite a idade do fã"))
+# if idade >= 18:
+#     print(f'Pode entrar, curta o show!')
+# else:
+#     print(f'Barrado, fã é menor que 18 anos!')
+
+# 3- Crie um algoritmo que permita a entrada de 3 notas de alunos, utilize o bloco de código if() para verificar se o aluno passou.
+
+# Sistema escolar de notas
+numero_alunos = int(input("Digite quantidade de alunos a serem computados:"))
+
+for i in range(numero_alunos):
+    name = input("Digite o nome do aluno")
+    nota = int(input("Digite a nota do aluno:"))
+    if nota >= 6:
+        print(f'{name} foi aprovado!')
+    else:
+        print(f'{name} foi reprovado!')
