@@ -1,27 +1,27 @@
 # -------------- Atividade 01 --------------
 
-# numero_01 = float(input("Digite o primeiro número: "))
-# numero_02 = float(input("Digite o segundo número: "))
-# soma = numero_01 + numero_02
-# print(soma)
+numero_01 = float(input("Digite o primeiro número: "))
+numero_02 = float(input("Digite o segundo número: "))
+soma = numero_01 + numero_02
+print(soma)
 
 
 # -------------- Atividade 02 --------------
 
-# name = input("What 's your name? ")
-# print("My name is", name)
+name = input("What 's your name? ")
+print("My name is", name)
 
 # -------------- Atividade 03 --------------
 
-# name = input("What 's your name: ")
-# print("Hi,",name,", How are you?")
+name = input("What 's your name: ")
+print("Hi,",name,", How are you?")
 
 # -------------- Atividade 04 --------------
 
-# numero_01 = float(input("Digite o primeiro número: "))
-# numero_02 = float(input("Digite o segundo número: "))
-# multiplicacao = numero_01 * numero_02
-# print(multiplicacao)
+numero_01 = float(input("Digite o primeiro número: "))
+numero_02 = float(input("Digite o segundo número: "))
+multiplicacao = numero_01 * numero_02
+print(multiplicacao)
 
 # -------------- Sistema completo --------------
 
